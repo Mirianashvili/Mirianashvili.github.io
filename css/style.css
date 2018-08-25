@@ -1,0 +1,137 @@
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+.about {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.about > .color-button{
+	position: absolute;
+	top:30px;
+}
+
+.about > .color-button > button{
+	background: none;
+	border: none;
+	color:#fff;
+	font-size:1.5rem;
+}
+
+.about > .color-button > button:hover{
+	cursor: pointer;
+}
+
+.about > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+.about > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+/*my code here*/
+
+.porfolio{
+	min-height: 100vh;
+	padding:3rem;
+}
+
+.porfolio h3{
+	text-transform: capitalize;
+	padding: 0 10px 10px 10px;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.portfolio-items{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	display: flex;
+}
+
+.portfolio-item{
+	background: #FAFAFA;
+  width: 200px;
+  height: 200px;
+	margin: 10px;
+	padding:9px;
+  font-weight: bold;
+	text-align: center;
+	border-radius: 2px;
+	transition: -webkit-box-shadow .25s;
+  -o-transition: box-shadow .25s;
+  transition: box-shadow .25s;
+	transition: box-shadow .25s,-webkit-box-shadow .25s;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12), 0 2px 1px -2px rgba(0,0,0,.2);
+}
+
+.portfolio-item h4{
+	font-size:1.25rem;
+	margin-bottom:0.75rem;
+	font-weight: 500;
+}
+
+.portfolio-item p{
+	font-size: 0.75rem;
+	padding:0px;
+	text-align: left;
+	height: 100px;
+}
+
+.portfolio-item a{
+	font-size: 1.5rem;
+	text-decoration: none;
+	vertical-align: bottom;
+}
+
+.portfolio-item a:hover{
+	text-decoration: underline;
+	opacity: 0.7;
+}

@@ -1,54 +1,65 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Sandro Mirianashvili</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/main.min.css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sandro Mirianashvili | Computer Science Student</title>
+	<link rel="icon" href="favicon.ico" type="image/png" />
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/themes/indigo-white.css">-->
+	<link rel="stylesheet" href="css/animation.css">
 </head>
-<body class="loading">
-	<div id="wrapper">
-		<div id="bg" ></div>
-		<!--<div id="overlay"></div>-->
-		<div id="main">
-		    <header id="header">
-				<h1>Sandro Mirianashvili</h1>
-				<p>Computer Science Student</p>
-				<nav>
-					<ul>
-						<li>
-							<a href="https://www.facebook.com/sandromirr" class="icon fa-facebook">
-								<span class="label">Facebook</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://linkedin.com/in/sandromirr" class="icon fa-linkedin">
-								<span class="label">LinkedIn</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.github.com/mirianashvili" class="icon fa-github">
-								<span class="label">Github</span>
-							</a>
-						</li>
-						<li>
-							<a href="mailto:mirianashvili.sandro@gmail.com" class="icon fa-envelope-o">
-								<span class="label">Email</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-			<footer id="footer"></footer>
-    </div>
+<body>
+
+	<!--animations-->
+	<div class="parallax" style="color:rgb(250, 250, 250)">
+		<div id="stars1"></div>
+		<div id="stars2"></div>
+		<div id="stars3"></div>
 	</div>
 
-    <script>
-        window.onload = function() { document.body.className = ''; }
-        window.ontouchmove = function() { return false; }
-        window.onorientationchange = function() { document.body.scrollTop = 0; }
-    </script>
+	<!--developer landing page-->
+	<main class="about">
+		<div class="color-button">
+			<button id="colorButton"><i class="fas fa-palette"></i></button>
+		</div>	
+		<div class="intro">Hello, I'm Sandro!</div>
+		<div class="tagline">Computer Science Student</div>
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/mirianashvili"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/sandromirr"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="https://www.instagram.com/sandromirr"><i class="fab fa-instagram"></i></a>
+			<a target="_blank" href="https://www.hackerrank.com/mirianashvili"><i class="fab fa-hackerrank"></i></a>
+			<a target="_blank" href="mailto:mirianashvili.sandro@gmail.com"><i class="fas fa-envelope"></i></a>
+		</div>
+	</main>
 
+	<!--developer porfolio page-->
+	<main class="porfolio">
+		<h3 class="portfolio-title">Portfolio</h3>
+		<div class="portfolio-items">
+			<div class="portfolio-item">
+				<h4>QuizApp</h4>
+				<p>Quiz app, where user can add questions, category, set time and show ratings. Technology: Asp.Net and MS SQL</p>
+				<a href="#"><i class="fab fa-github"></i></a>
+			</div>
+			<div class="portfolio-item">
+				<h4>Sync Calendar</h4>
+				<p>Sync sms.tsu.ge schedule to google calendar. Technology: Node.js</p>
+				<a href="#"><i class="fab fa-github"></i></a>
+			</div>
+			<div class="portfolio-item">
+				<h4>Hackerrank</h4>
+				<p>Solve algorthms, Data structures, SQL, Java and contest problems</p>
+				<a href="#"><i class="fab fa-github"></i></a>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/script.js"></script>
 </body>
 </html>
