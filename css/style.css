@@ -5,26 +5,38 @@ html {
 }
 
 @media (min-width: 576px) {
-	html {
+	.about {
 		font-size: 14px;
+	}
+	#colorButton i{
+		font-size: 2.5rem;
 	}
 }
 
 @media (min-width: 768px) {
-	html {
+	.about {
 		font-size: 16px;
+	}
+	#colorButton i{
+		font-size: 3rem;
 	}
 }
 
 @media (min-width: 992px) {
-	html {
+	.about {
 		font-size: 18px;
+	}
+	#colorButton i{
+		font-size: 3.5rem;
 	}
 }
 
 @media (min-width: 1200px) {
-	html {
+	.about {
 		font-size: 20px;
+	}
+	#colorButton i{
+		font-size: 4rem;
 	}
 }
 
@@ -85,7 +97,7 @@ html {
 .porfolio h3{
 	text-transform: capitalize;
 	padding: 0 10px 10px 10px;
-	font-size: 2.5rem;
+	font-size: 4.5rem;
 	font-weight: 800;
 }
 
@@ -113,20 +125,20 @@ html {
 }
 
 .portfolio-item h4{
-	font-size:1.25rem;
+	font-size:2.0rem;
 	margin-bottom:0.75rem;
 	font-weight: 500;
 }
 
 .portfolio-item p{
-	font-size: 0.75rem;
+	font-size: 1.25rem;
 	padding:0px;
 	text-align: left;
 	height: 100px;
 }
 
 .portfolio-item a{
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	text-decoration: none;
 	vertical-align: bottom;
 }
@@ -136,36 +148,12 @@ html {
 	opacity: 0.7;
 }
 
-/* add portfolio queries */
-
-/*@media only screen and (max-width: 800px) {
-	.portfolio-item{
-		width: 45%;
-		height:250px;
-		margin:2%;
-		padding:15px;
-	}
-	.portfolio-item > h4{
-		font-size: 2.0rem !important;
-		font-weight: 700;
-	}
-	.portfolio-item > p{
-		font-size: 1.3rem!important;
-		max-height: 100px;
-		font-weight: 500;
-	}
-	.portfolio-item > a{
-		font-size: 2.5rem !important;
-		text-decoration: none;
-		vertical-align: bottom;
-	}
-}*/
 
 @media only screen and (max-width: 480px) {
 	.portfolio-item{
 		width: 100%;
-		min-height:100px;
 		padding:15px;
+		height: 160px;
 	}
 	.portfolio-item > h4{
 		font-size: 1.75rem;
@@ -173,8 +161,9 @@ html {
 	}
 	.portfolio-item > p{
 		font-size: 1.3rem;
-		min-height: 10px;
 		font-weight: 500;
+		margin-bottom: 10px;
+		height: 50px;
 	}
 	.portfolio-item > a{
 		font-size: 2.5rem;
