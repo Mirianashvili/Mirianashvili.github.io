@@ -17,11 +17,13 @@ $(document).ready(function() {
 		if ($(this).is(':checked')) {
 			$('body').addClass('dark-mode');
 			//Set cookies for 7 days 
+			document.getElementById('dark-mode-text').innerText = "Light Mode"
 			Cookies.set('mode', 'dark-mode', { expires: 7 });
 			
 		} else {
 			$('body').removeClass('dark-mode');
 			//Remove cookies
+			document.getElementById('dark-mode-text').innerText = "Dark Mode"
 			Cookies.remove('mode');
 		}
 	});	
