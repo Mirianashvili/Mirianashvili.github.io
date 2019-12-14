@@ -1,2 +1,2 @@
-# mirianashvili.github.io
-My digital home
+# sandromirr.github.io
+My Personal Page
