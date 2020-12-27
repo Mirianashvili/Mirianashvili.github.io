@@ -54,7 +54,7 @@ const view_links = (dom, tuts, select = 'ALL') => {
     get_tuts(tuts, select).forEach((item) => {
         console.log(item)
         dom.innerHTML += `
-             <li><a href="">`+ item.name + `</a></li>
+             <li><a href="`+ item.link + `" target="_blank">` + item.name + `</a></li>
         `
     })
 }
