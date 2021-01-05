@@ -13,13 +13,15 @@ const get_tuts = (tuts, tag = 'All') => {
 
 const get_tags = (tuts) => {
     let tags = new Set();
-    let list = ['ALL']
+    let list = []
     tuts.forEach((item) => {
         tags.add(item.tag);
     })
 
     tags.forEach(v => list.push(v));
 
+    list.sort()
+    list.unshift('ALL');
     return list;
 }
 

@@ -10,11 +10,6 @@ const tuts_list = [
         link: 'https://www.youtube.com/watch?v=_bYFu9mBnr4'
     },
     {
-        tag: 'React Native',
-        name: 'React Native Crash Course 2020',
-        link: 'https://www.youtube.com/watch?v=Hf4MJH0jDb4'
-    },
-    {
         tag: 'Python',
         name: 'Web Programming with Flask - Intro to Computer Science - Harvard\'s CS50 (2018)',
         link: 'https://www.youtube.com/watch?v=zdgYw-3tzfI'
@@ -23,5 +18,40 @@ const tuts_list = [
         tag: 'Angular',
         name: 'Angular Crash Course',
         link: 'https://www.youtube.com/watch?v=Fdf5aTYRW0E'
+    },
+    {
+        tag: 'C#',
+        name: 'C# Tutorial - Full Course for Beginners',
+        link: 'https://www.youtube.com/watch?v=GhQdlIFylQ8'
+    },
+    {
+        tag: 'PHP',
+        name: 'PHP For Absolute Beginners | 6.5 Hour Course',
+        link: 'https://www.youtube.com/watch?v=2eebptXfEvw'
+    },
+    {
+        tag: 'PHP',
+        name: 'PHP OOP | Beginners Crash Course',
+        link: 'https://www.youtube.com/watch?v=dQxuYRNbL_M'
+    },
+    {
+        tag: 'Python',
+        name: 'Python Object Oriented Programming (OOP) - For Beginners',
+        link: 'https://www.youtube.com/watch?v=JeznW_7DlB0'
+    },
+    {
+        tag: 'Python',
+        name: 'Object Oriented Programming (OOP) in Python',
+        link: 'https://www.youtube.com/watch?v=MikphENIrOo'
+    },
+    {
+        tag: 'HTML',
+        name: 'HTML Full Course - Build a Website Tutorial',
+        link: 'https://www.youtube.com/watch?v=pQN-pnXPaVg'
+    },
+    {
+        tag: 'CSS',
+        name: 'Learn HTML5 and CSS3 From Scratch - Full Course',
+        link: 'https://www.youtube.com/watch?v=mU6anWqZJcc'
     },
 ]
