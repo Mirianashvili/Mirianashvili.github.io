@@ -4,7 +4,7 @@
 <head>
     <title>Sandro Mirianashvili | Personal Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/sandro mirianashvili.jpg" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/main.bundle.css">
     <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
@@ -63,6 +63,7 @@
         </div>
     </section>
 
+    <!--about me-->
     <section class="section">
         <div class="container">
             <h1 class="title">About Me</h1>
@@ -74,6 +75,7 @@
         </div>
     </section>
   
+    <!--experience-->
     <section class="section">
         <div class="container">
             <h1 class="title">Experience</h1>
@@ -88,7 +90,7 @@
                         </div>
                         <div class="media-content">
                             <p class="title is-4">IT Center Mziuri</p>
-                            <p class="subtitle is-6">Course Instructor - <time datetime="2018-1">Apr 2019</time> - <time datetime="2019-9">present</time> </p>
+                            <p class="subtitle is-6">Course Instructor - <time datetime="2019-4">Apr 2019</time> - <time datetime="2019-9">present</time> </p>
                         </div>
                     </div>
                     <div class="content">
@@ -118,7 +120,7 @@
                         </div>
                         <div class="media-content">
                             <p class="title is-4">Geolab</p>
-                            <p class="subtitle is-6">Junior Web Developer - <time datetime="2018-1">Dec 2018</time> - <time datetime="2017-9">Apr 2019</time></p>
+                            <p class="subtitle is-6">Junior Web Developer - <time datetime="2018-12">Dec 2018</time> - <time datetime="2019-4">Apr 2019</time></p>
                         </div>
                     </div>
                     <div class="content">
@@ -138,6 +140,7 @@
         </div>
     </section>
 
+    <!--projects-->
     <section class="section">
         <div class="container">
             <h1 class="title">Projects</h1>
@@ -180,23 +183,24 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="tile is-ancestor">
+            <div class="tile is-ancestor">
                 <div class="tile is-vertical is-4">
                     <div class="tile">
                         <div class="tile is-parent">
                             <article class="tile is-child notification">
-                                <p class="title" style="font-size:24px;">Digit Recognition</p>
+                                <p class="title" style="font-size:24px;">TrustPilot Scraper</p>
                                 <figure class="image is-4by3">
-                                    <img class="modal-trigger" data-target="project-2-modal" src="assets/img/digit-recognition.PNG">
+                                    <img class="modal-trigger" data-target="trustpilot-scraper" src="assets/img/trustpilot.png">
                                 </figure>
                             </article>
                         </div>
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
     </section>
 
+    <!--education-->
     <section class="section">
         <div class="container">
             <h1 class="title">Education</h1>
@@ -227,6 +231,7 @@
         </div>
     </section>
 
+    <!--awards-->
     <section class="section">
         <div class="container">
             <h1 class="title">Awards</h1>
@@ -278,7 +283,7 @@
         </div>
     </section>
 
-    
+    <!--contact me-->    
     <section class="section">
         <div class="container">
             <h1 class="title">Contact</h1>
@@ -458,6 +463,37 @@
             <footer class="modal-card-foot">
                 <button class="button is-success">Close</button>
                 <a href="https://tensorflow-digit-recognition.herokuapp.com/" class="button is-info" target="_blank">View Project</a>
+            </footer>
+        </div>
+    </div>
+
+    <!--digit recognition modal-->
+    <div id="trustpilot-scraper" class="modal">
+        <div class="modal-background"></div>
+            <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Trustpilot Scraper</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <div id="trustpilot-scraper-carousel" class="carousel">
+                    <figure class="image is-4by3 carousel-cell">
+                        <img src="assets/img/trustpilot.png">
+                    </figure>
+                    <figure class="image is-4by3 carousel-cell">
+                        <img src="assets/img/trustpilot-data.png">
+                    </figure>
+                </div>
+                <div class="content">
+                    <p>Trustpilot review scraper</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+            </section>
+            <footer class="modal-card-foot">
+                <button class="button is-success">Close</button>
+                <a href="https://github.com/sandromirr/trustpilot-scraper" class="button is-info" target="_blank">View Github</a>
             </footer>
         </div>
     </div>
