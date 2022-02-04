@@ -10,10 +10,11 @@
 </head>
 
 <body>
+    <!--menu-->
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div class="navbar-item is-hidden-desktop">
-                <a href="https://github.com/sandromirr" class="icon is-large has-text-light">
+                <a href="https://github.com/sandromirr" target="_blank" class="icon is-large has-text-light">
                     <i class="fab fa-2x fa-github"></i>
                 </a>
             </div>
@@ -26,7 +27,7 @@
         <div class="navbar-menu">
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <a href="https://github.com/sandromirr" class="icon is-large has-text-light">
+                    <a href="https://github.com/sandromirr" target="_blank" class="icon is-large has-text-light">
                         <i class="fab fa-2x fa-github"></i>
                     </a>
                 </div>
@@ -39,6 +40,7 @@
         </div>
     </nav>
 
+    <!--header-->
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container">
@@ -57,6 +59,11 @@
                         <h2 class="subtitle">
                             Software Developer from Tbilisi, Georgia
                         </h2>
+                        <p>
+                            <a href="#" class="icon has-text-light">
+                                <i class="fas fa-file-word"></i> <strong>Resume</strong>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -85,7 +92,7 @@
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img src="assets/img/hr-logo.png" alt="IT Center Mziuri">
+                                <img src="assets/img/hr-logo.png" alt="HRRA">
                             </figure>
                         </div>
                         <div class="media-content">
@@ -147,7 +154,7 @@
                         </div>
                         <div class="media-content">
                             <p class="title is-4">Geolab</p>
-                            <p class="subtitle is-6">Software Developer / <time datetime="2018-12">Dec 2018</time> - <time datetime="2019-4">Mar 2019</time></p>
+                            <p class="subtitle is-6">Software Developer Internship / <time datetime="2018-12">Dec 2018</time> - <time datetime="2019-4">Mar 2019</time></p>
                         </div>
                     </div>
                     <div class="content">
@@ -240,26 +247,36 @@
         <div class="container">
             <h1 class="title">Education</h1>
             <hr />
-            <div class="card">
-                <div class="card-content">
-                    <div class="content">
-                        <p class="title is-4">Tbilisi State University</p>
-                        <p class="subtitle is-6">Computer Science - <time datetime="2016-9">Sep 2015</time> - <time datetime="2019-9">Jul 2019</time></p>
-                    </div>
-                    <div class="content">
-                        Bachelors Degree, Computer Science <br/>
-                        Activities: Hackathons, Online Programming Competition
-                    </div>
-                </div>
-            </div>
-            <div class="card card-gap">
-                <div class="card-content">
-                    <div class="content">
-                        <p class="title is-4">First Experimental School of Tbilisi</p>
-                        <p class="subtitle is-6">High School - <time datetime="2015-9">Sep 2003</time> - <time datetime="2015-9">Jul 2015</time></p>
-                    </div>
-                    <div class="content">
-                        Activities: National Olympiads, Computer Draw Club
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-12">
+                    <div class="tile">
+                        <div class="tile is-parent">
+                            <div class="tile card">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="title is-4">Tbilisi State University</p>
+                                        <p class="subtitle is-6">Computer Science / <time datetime="2016-9">Sep 2015</time> - <time datetime="2019-9">Jul 2019</time></p>
+                                    </div>
+                                    <div class="content">
+                                        Bachelors Degree, Computer Science <br/>
+                                        Activities: Hackathons, Online Programming Competition
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <div class="tile card">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="title is-4">First Experimental School of Tbilisi</p>
+                                        <p class="subtitle is-6">High School / <time datetime="2015-9">Sep 2003</time> - <time datetime="2015-9">Jul 2015</time></p>
+                                    </div>
+                                    <div class="content">
+                                        Activities: National Olympiads, Computer Draw Club
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -276,17 +293,15 @@
                     <div class="tile">
                         <div class="tile is-parent">
                             <article class="tile is-child notification">
-                                <p class="title" style="font-size:24px;">Gamification Hackathon</p>
-                                <p>1st place<br/> Developed android mobile application HERO, which offers users one time, simple jobs.</p>
+                                <p class="title" style="font-size:24px;margin-bottom: 10px;">Gamification Hackathon</p>
+                                <p>1st place, Developed android mobile application HERO, which offers users one time, simple jobs.</p>
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child notification">
-                                <p class="title" style="font-size:24px;">Google I/O Hackathon</p>
+                                <p class="title" style="font-size:24px;margin-bottom: 10px;">Google I/O Hackathon</p>
                                 <p>
-                                    2nd Place
-                                    <br/>
-                                    Web application, which helps people to choose university and faculty based on their interests(sport, science, books, etc.), location and other factors.
+                                    2nd Place, Web application, which helps people to choose university and faculty based on their interests, location and other factors.
                                 </p>
                             </article>
                         </div>
@@ -294,22 +309,42 @@
                 </div>
             </div>
             <div class="tile is-ancestor">
-                <div class="tile is-vertical is-12">
+                <div class="tile is-verticalis-12" >
                     <div class="tile">
                         <div class="tile is-parent">
                             <article class="tile is-child notification">
-                                <p class="title" style="font-size:24px;">Social Impacts Award</p>
+                                <p class="title" style="font-size:24px;margin-bottom: 10px;">Social Impacts Award</p>
                                 <p>
-                                    Winner
-                                    <br/>
-                                    My team and I won Social Impact Awards 2017 competition with a project called BReader.
+                                    Winner, My team and I won Social Impact Awards 2017 competition with a project called BReader.
                                 </p>
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child notification">
-                                <p class="title" style="font-size:24px;">Gold Medal</p>
+                                <p class="title" style="font-size:24px;margin-bottom: 10px;">Gold Medal</p>
                                 <p>Received a Gold Medal for completing my high school with 4.0</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--awards-->
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Skills</h1>
+            <hr />
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-12">
+                    <div class="tile">
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification">
+                                <p>
+                                    <strong>Technologies:</strong> C#, Asp.Net Mvc/Core, Python(flask), Microsoft SQL Server, Angular, Git, Docker<br>
+                                    <strong>Foreign Languages:</strong> English, Russian, Georgian <br>
+                                </p>
                             </article>
                         </div>
                     </div>
@@ -324,20 +359,14 @@
             <h1 class="title">Contact</h1>
             <hr />
             <nav class="level">
-                <!--<div class="level-item has-text-centered">
-                    <div>
-                        <a href="https://github.com/sandromirr" class="icon is-large">
-                            <i class="fas fa-2x fa-map-marker-alt"></i>
-                        </a>
-                        <p class="heading"><a href="https://github.com/sandromirr">Tbilis, Georgia</a></p>
-                    </div>
-                </div>-->
                 <div class="level-item has-text-centered">
                     <div>
                         <a href="#" class="icon is-large">
                             <i class="fas fa-2x fa-phone"></i>
                         </a>
-                        <p class="heading"><a href="tel:995557120202">+995 557-12-02-02</a></p>
+                        <p class="heading">
+                            <a href="tel:995557120202">+995 557-12-02-02</a>
+                        </p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
@@ -345,238 +374,15 @@
                         <a href="mailto:mirianashvili.sandro@gmail.com" class="icon is-large">
                             <i class="fas fa-2x fa-envelope"></i>
                         </a>
-                        <p class="heading"><a href="mailto:mirianashvili.sandro@gmail.com">mirianashvili.sandro@gmail.com</a></p>
+                        <p class="heading">
+                            <a href="mailto:mirianashvili.sandro@gmail.com">mirianashvili.sandro@gmail.com</a>
+                        </p>
                     </div>
                 </div>
-                <!--<div class="level-item has-text-centered">
-                    <div>
-                        <a href="sandromirr.github.io" class="icon is-large">
-                            <i class="fas fa-2x fa-globe"></i>
-                        </a>
-                        <p class="heading"><a href="https://sandromirr.github.io">Personal Page</a></p>
-                    </div>
-                </div>-->
             </nav>
         </div>
     </section>
     
-
-    <!-- Modals -->
-    <div id="project-1-modal" class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Project title</p>
-                <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-
-                <div id="project-1-modal-carousel" class="carousel">
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/carousel/1.png">
-                    </figure>
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/carousel/2.png">
-                    </figure>
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/carousel/3.png">
-                    </figure>
-                </div>
-
-                <div class="content">
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque quidem esse. Sunt vel perferendis voluptate est modi quisquam asperiores nostrum, blanditiis dolor debitis illo esse adipisci illum accusantium doloribus?</p>
-
-                    <div class="tags">
-                        <span class="tag">angular</span>
-                        <span class="tag">mongo</span>
-                        <span class="tag">typscript</span>
-                        <span class="tag">node</span>
-                    </div>
-
-                </div>
-
-            </section>
-            <footer class="modal-card-foot">
-                <button class="button is-success">Close</button>
-            </footer>
-        </div>
-    </div>
-
-
-    <!--portfolio modal-->
-    <div id="portfolio-modal" class="modal">
-        <div class="modal-background"></div>
-            <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Geolab Portfolio</p>
-                <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-                <div id="portfolio-modal-carousel" class="carousel">
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img//portfolio-project.png">
-                    </figure>
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img//portfolio-project.png">
-                    </figure>
-                </div>
-                <div class="content">
-                    <p>Student portfolio web application</p>
-                    <div class="tags">
-                        <span class="tag">asp.net mvc</span>
-                        <span class="tag">ms sql server</span>
-                        <span class="tag">html</span>
-                        <span class="tag">css</span>
-                        <span class="tag">js</span>
-                    </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-                <button class="button is-success">Close</button>
-                <a href="https://github.com/GeoLabJuniors/geolab-portfolio-back-2019" class="button is-info" target="_blank">View</a>
-            </footer>
-        </div>
-    </div>
-
-    <!--coding tasks-->
-    <div id="coding-tasks-modal" class="modal">
-        <div class="modal-background"></div>
-            <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Coding Tasks</p>
-                <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-                <div id="coding-tasks-modal-carousel" class="carousel">
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/coding-tasks.png">
-                    </figure>
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/coding-tasks.png">
-                    </figure>
-                </div>
-                <div class="content">
-                    <p>Coding tasks for students</p>
-                    <div class="tags">
-                        <span class="tag">Angular</span>
-                        <span class="tag">Firebase</span>
-                        <span class="tag">Bootstrap</span>
-                    </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-                <button class="button is-success">Close</button>
-                <a href="https://coding-tasks.web.app/home" class="button is-info" target="_blank">View Project</a>
-            </footer>
-        </div>
-    </div>
-
-    <!--digit recognition modal-->
-    <div id="digit-recognition-modal" class="modal">
-        <div class="modal-background"></div>
-            <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Digit Recognition</p>
-                <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-                <div id="digit-recognition-modal-carousel" class="carousel">
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/digit-recognition.PNG">
-                    </figure>
-                </div>
-                <div class="content">
-                    <p>University Project, Digit recognition with Tensorflow.js</p>
-                    <div class="tags">
-                        <span class="tag">Javascript</span>
-                        <span class="tag">Tensorflow</span>
-                        <span class="tag">Heroku</span>
-                    </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-                <button class="button is-success">Close</button>
-                <a href="https://tensorflow-digit-recognition.herokuapp.com/" class="button is-info" target="_blank">View Project</a>
-            </footer>
-        </div>
-    </div>
-
-    <!--digit recognition modal-->
-    <div id="trustpilot-scraper" class="modal">
-        <div class="modal-background"></div>
-            <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Trustpilot Scraper</p>
-                <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-                <div id="trustpilot-scraper-carousel" class="carousel">
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/trustpilot.png">
-                    </figure>
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/trustpilot-data.png">
-                    </figure>
-                </div>
-                <div class="content">
-                    <p>Trustpilot review scraper</p>
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                    </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-                <button class="button is-success">Close</button>
-                <a href="https://github.com/sandromirr/trustpilot-scraper" class="button is-info" target="_blank">View Github</a>
-            </footer>
-        </div>
-    </div>
-
-    <!--quiz app modal-->
-    <div id="quizapp" class="modal">
-        <div class="modal-background"></div>
-            <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">QuizApp</p>
-                <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-                <div id="trustpilot-scraper-carousel" class="carousel">
-                    <figure class="image is-4by3 carousel-cell">
-                        <img src="assets/img/quizapp.png">
-                    </figure>
-                </div>
-                <div class="content">
-                    <p>QuizApp</p>
-                    <div class="tags">
-                        <span class="tag">asp.net</span>
-                        <span class="tag">ms sql</span>
-                        <span class="tag">html</span>
-                        <span class="tag">css</span>
-                        <span class="tag">bootstrap</span>
-                    </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-                <button class="button is-success">Close</button>
-                <a href="https://github.com/sandromirr/QuizApp" class="button is-info" target="_blank">View Github</a>
-            </footer>
-        </div>
-    </div>
-
-
-
-    <!--<footer class="footer">
-        <div class="content has-text-centered">
-            <p>
-                <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
-                    <i class="fab fa-github"></i> <strong>devfolio</strong>
-                </a>
-            </p>
-        </div>
-    </footer>-->
-
     <script src="assets/js/bundle.js"></script>
 </body>
 </html>
