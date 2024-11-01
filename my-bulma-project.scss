@@ -1,0 +1,26 @@
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$test: 12px;
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: '"Lato", sans-serif',
+  $grey-dark: $brown,
+  $grey-light: $beige-light,
+  $primary: #454545,
+  $link: $pink,
+  $control-border-width: 2px,
+  $input-shadow: none,
+  $section-padding: 2.15rem 1.5rem,
+  $section-padding-desktop: 2.15rem 1.5rem,
+  $section-padding-medium: 2.15rem 1.5rem,
+  $section-padding-large: 2.15rem 1.5rem
+);
+
+// Import the Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');

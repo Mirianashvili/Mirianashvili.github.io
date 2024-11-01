@@ -1,0 +1,17 @@
+{
+  "name": "sandromirr.github.io",
+  "version": "1.0.0",
+  "description": "My Personal Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css --style compressed",
+    "start": "npm run build-bulma -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^1.0.2",
+    "sass": "^1.80.5"
+  }
+}
